@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng kí</title>
+  <link rel="stylesheet" href="../bootstrap-5.0.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
+  <script src="../jQuery/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .background__login {
+      background: linear-gradient(45deg, #2980b9, #8e44ad);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="container-fluid sticky-top ">
+    <!--Pc-->
+    <nav class="navbar ">
+      <a href="./index.html" class="logo-header"> <img class="img-header" src="../Picture/logo/logo.png" alt=""></a>
+      <ul class="nav font-nav">
+        <li class="nav-item"><a class="nav-link txt-nav" href="./index.html">Trang chủ</a></li>
+        <li id="idproduct" class="nav-item"><a class="nav-link txt-nav" href="./products.html">Sản phẩm</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="./about.html">Về chúng tôi</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="./contact.html ">Liên hệ</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="./SiteMap.html ">Site Map</a></li>
+      </ul>
+      <div class="content d-flex align-items-center">
+        <div class="searchbar ">
+          <input id="search" class="search_input" type="text" name="" placeholder="Bạn cần tìm gì...">
+          <a id="btn-search" href="" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
+          <ul class="user p-0 m-0">
+            <li class="user-link">
+              <a id="btn-login_pc" href="./login.html" class=" nav-link user-nav">
+                <i class="fas fa-user user-icon"></i>
+                <span class="user-name"></span>
+              </a>
+              <ul id="menu_login_user" class="has-user p-0">
+                <li class="nav-item"><a class="nav-link txt-acc" href="">Thông tin</a></li>
+                <li class="nav-item"><a class="cart-link nav-link txt-acc" href="./cart.html">Xem đơn hàng</a></li>
+                <li class="nav-item"><a id="btn_logout_acc" class="nav-link txt-acc" href="">Đăng Xuất</a></li>
+              </ul>
+            </li>
+          </ul>
+        <div class="cart-plus-nav">
+          <a class="cart-link nav-link cart-plus" href="./cart.html"><i class="fas fa-cart-plus cart-plus"></i></a>
+          <span id="demcart" class="totalProduct ">0</span>
+        </div>
+        <div class="menu-nav btn-menu-on p-0 " id="toggle-on">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay-nav"></div>
+      </div>
+    </nav>
+    <!--Pc-->
+    <div class="nav_mobile">
+      <div class="btn-menu-off p-0 " id="toggle-off">
+        <i class="fas fa-times close-menu"></i>
+      </div>
+      <ul class="nav_mobile-list">
+        <li class=" nav-item text-center nav-user"><a id="btn-login_mobile" class=" user-name nav-link" href="./login.html">Tên tài khoản</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./index.html"><i class="fas fa-home"></i> Trang
+            chủ</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./products.html">Sản phẩm</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./about.html">Về chúng tôi</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./contact.html">Liên hệ</a></li>
+        <li class=" nav-item "><a id="btn-login" class="nav-link btn-nav-mobile d-inline-block" href="./login.html" >Đăng Nhập</a></li>
+      </ul>
+    </div>
+  </header>
+  <!--main-->
+  <div class="background__login login ">
+    <div class="container p-5">
+      <div class="row justify-content-center">
+        <div class="col-md-9">
+          <div class="card-group">
+            <div class="card border">
+              <div class="card-body">
+                <h1>Đăng nhập</h1>
+                <p class="text-muted">Nhập thông tin Tài khoản</p>
+                <form name="frmdangnhap" id="frmdangnhap" action="#">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text h-100 d-block">
+                        <i class="fa fa-user"></i>
+                      </span>
+                    </div>
+                    <input id="username_login" class="form-control" type="text" name="username_login"
+                      placeholder="Tên đăng nhập">
+                  </div>
+                  <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text h-100 d-block">
+                        <i class="fa fa-lock"></i>
+                      </span>
+                    </div>
+                    <input id="password_login" class="form-control" type="password" name="password_login"
+                      placeholder="Mật khẩu">
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <button id="btnLogin" class="btn btn-primary px-4" name="btnLogin">Đăng
+                        nhập</button>
+                    </div>
+                    <div class="col-6 text-right">
+                      <button class="btn btn-link px-0" name="btnFgPass" type="button">Quên mật khẩu?</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="card card-login text-white bg-info  " style="border-left: 4px solid #ccc;">
+              <div class="card-body text-center">
+                  <h2>Đăng ký</h2>
+                  <p>Tạo tài khoản</p>
+                  <form action="#" class="frmdangky" id="frmdangky">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text h-100 d-block">
+                          <i class="fa fa-user"></i>
+                        </span>
+                      </div>
+                      <input onblur="checkRegister();" class="form-control" type="text" name="name" placeholder="Họ tên">
+                      <span class="w-100" id="ername"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text h-100 d-block">
+                          <i class="fa fa-user"></i>
+                        </span>
+                      </div>
+                      <input onblur="checkRegister();" class="form-control" type="text" name="username" placeholder="Tên đăng nhập">
+                      <span class="w-100" id="erusername"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text h-100 d-block">
+                          <i class="fa fa-user"></i>
+                        </span>
+                      </div>
+                      <input onblur="checkRegister();" class="form-control" type="password" name="password" placeholder="Mật Khẩu">
+                      <span class="w-100" id="erpass1"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text h-100 d-blo8ck">
+                          <i class="fa fa-lock"></i>
+                        </span>
+                      </div>
+                      <input onblur="checkRegister();" class="form-control" type="password" name="password2" placeholder=" Nhập lại Mật khẩu">
+                      <span class="w-100" id="erpass2"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text h-100 d-block">
+                          <i class="fa fa-user"></i>
+                        </span>
+                      </div>
+                      <input onblur="checkRegister();" class="form-control" type="text" name="email" placeholder="Email">
+                      <span class="w-100" id="eremail"></span>
+                    </div>
+                    <button id="btnRegister" class="btn btn-block btn-success" name="btnRegister">Tạo tài khoản</button>
+                  </form>
+              </div>
+            </div>
+            <div class="col-12 text-center">
+              <p>Nếu bạn đã có Tài khoản, xin mời Đăng nhập!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start Footer-->
+  <!-- Footer -->
+  <footer class="bg-footer text-center text-white">
+    <div class="container p-4">
+      <section class=" p-0">
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+      </section>
+      <section class="p-0">
+        <p class="txt-footer">
+          Được phục vụ quý khánh là niềm vinh hạnh của chúng tôi.
+        </p>
+      </section>
+      <section class="">
+        <div class="row text-start">
+          <div class="col col-12 col-md-6 col-lg-4 ">
+            <h5 class="text-uppercase"><img src="../Picture/logo/logo.png" alt="" class="logo-footer"></h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-white footer-link">Giới thiệu</a>
+              </li>
+              <li>
+                <a href="#" class="text-white footer-link">Tuyển dụng</a>
+              </li>
+              <li>
+                <a href="#" class="text-white footer-link">Liên hệ</a>
+              </li>
+              <li>
+
+              </li>
+            </ul>
+          </div>
+          <div class="col col-12 col-md-6 col-lg-4">
+            <h5 class="text-uppercase">CÁC QUY ĐỊNH VÀ CHÍNH SÁCH</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white footer-link">Chính sách bảo hành</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white footer-link">Chính sách đổi trả hàng và hoàn tiền</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white footer-link">Chính sách bảo mật</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white footer-link">Điều khoản và Điều kiện </a>
+              </li>
+              <li>
+                <img src="../Picture/footer/apple.png" alt="" class="app-footer">
+              </li>
+            </ul>
+          </div>
+          <div class="col col-12 col-md-6 col-lg-4">
+            <h5 class="text-uppercase">HỆ THỐNG SHOWROOM</h5>
+
+            <ul class="list-unstyled mb-0">
+
+              <li>
+                <a href="#!" class="text-white footer-link">12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí
+                  Minh</a>
+
+              </li>
+              <li><img src="../Picture/footer/tich.PNG" alt="" class="tich-apple"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="../bootstrap-5.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
+
+    <script>
+      var btnLogin = document.getElementById('btnLogin');
+      btnLogin.addEventListener('click', function (event) {
+        event.preventDefault();
+        var username_login = document.getElementById("username_login").value;
+        var password_login = document.getElementById("password_login").value;
+        var flag = false;
+        for (var user of users) {
+          if (user.username === username_login && user.password === password_login) {
+            localStorage.setItem("user_login", JSON.stringify(user));
+            flag = true;
+            break;
+          }
+        }
+        if (flag) {
+          setTimeout(function () {
+            //alert("abc");
+            window.location = "./index.html";
+          }, 1000);
+        }
+        else {
+          alert("Sai tên đăng nhập hoặc mật khẩu!!!");
+        }
+
+
+      });
+
+      function checkRegister() {
+        var form = document.querySelector('#frmdangky');
+        var data = Object.fromEntries(new FormData(form).entries());
+
+        var regName = /^([A-Z][a-z]+)(\s+[A-Z][a-z]+)+$/; //phải có họ và tên chữ cái đầu tiên của tên và họ phải bắt đầu bằng chữ in hoa
+        var regUserName = /(?=.*[a-zA-Z_0-9])\w{6,}/; // ít nhất phải có 6 ký tự không chứa ký tự đặc biệt
+        var regPassword = /^(?=.*[0-9])(?=.*[a-z])([a-zA-Z0-9]{8,})$/; //phải có 8 ký tự trở lên và có ít nhất 1 số
+        var regEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+        var ername = document.getElementById("ername");
+        var erusername = document.getElementById("erusername");
+        var erpass1 = document.getElementById("erpass1");
+        var erpass2 = document.getElementById("erpass2");
+        var eremail = document.getElementById("eremail");
+
+        if (!regName.test(data.name)) {
+          ername.innerText = "Chữ cái đầu tiên phải bắt đầu bằng chữ in hoa và phải có họ và tên";
+          return false;
+        }
+        ername.innerText = "";
+
+        if (!regUserName.test(data.username)) {
+          erusername.innerText = "Tên đăng nhập ít nhất phải có 6 ký tự không chứa ký tự đặc biệt";
+          return false;
+        }
+        erusername.innerText = "";
+
+        if (!regPassword.test(data.password)) {
+          erpass1.innerText = "Mật khẩu phải có 8 ký tự trở lên và có ít nhất 1 số";
+          return false;
+        }
+        erpass1.innerText = "";
+
+        if (data.password !== data.password2) {
+          erpass2.innerText = "Mật khẩu chưa khớp";
+          return false;
+        }
+        erpass2.innerText = "";
+
+        if (!regEmail.test(data.email)) {
+          eremail.innerText = "vui lòng điền đúng định dạng email";
+          return false;
+        }
+        eremail.innerText = "";
+        return true;
+      }
+
+      var btnRegister = document.getElementById('btnRegister');
+      btnRegister.addEventListener('click', function (event) {
+        event.preventDefault();
+        var form = document.querySelector('#frmdangky');
+        var data = Object.fromEntries(new FormData(form).entries());
+        data["product_user"] = [];
+        console.log(data);
+        if (checkRegister()) {
+          var flag = true;
+          for (var user of users) {
+            if (user.username === data.username) {
+              alert("tên tài khoản đã tồn tại");
+              flag = false;
+              break;
+            }
+          }
+          if (flag) {
+            users.push(data);
+            var list = JSON.stringify(users);
+            localStorage.setItem("listUser", list);
+            alert("Bạn đã đăng ký thành công");
+          }
+        }
+      }
+      )
+    </script>
+</body>
+
+</html>
