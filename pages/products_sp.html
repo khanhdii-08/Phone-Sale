@@ -6,48 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chi tiết</title>
-  <script src="../js/jquery.js"></script>
+  
+  <script src="../assets/js/jquery.js"></script>
   <!-- xzoom plugin here -->
-  <script type="text/javascript" src="../js/xzoom.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="../css/xzoom.css" media="all">
-  <link rel="stylesheet" href="../bootstrap-5.0.0-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
+  <script type="text/javascript" src="../assets/js/xzoom.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../assets/css/xzoom.css" media="all">
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.css">
   <!-- <link rel="stylesheet" href="../css/xzoom.css"> -->
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
   <header class="container-fluid sticky-top ">
     <!--Pc-->
     <nav class="navbar ">
-      <a href="./index.html" class="logo-header"> <img class="img-header" src="../Picture/logo/logo.png" alt=""></a>
+      <a href="../index.html" class="logo-header"> <img class="img-header" src="../assets/image/logo/logo.png" alt=""></a>
       <ul class="nav font-nav">
-        <li class="nav-item"><a class="nav-link txt-nav" href="./index.html">Trang chủ</a></li>
-        <li id="idproduct" class="nav-item"><a class="nav-link txt-nav" href="./products.html">Sản phẩm</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav" href="./about.html">Về chúng tôi</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav" href="./contact.html ">Liên hệ</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav" href="./SiteMap.html ">Site Map</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="../index.html">Trang chủ</a></li>
+        <li id="idproduct" class="nav-item"><a class="nav-link txt-nav" href="./pages/products.html">Sản phẩm</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="../pages/about.html">Về chúng tôi</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="../pages/contact.html ">Liên hệ</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="../pages/SiteMap.html ">Site Map</a></li>
       </ul>
       <div class="content d-flex align-items-center">
         <div class="searchbar ">
-          <input id="search" class="search_input" type="text" name="" placeholder="Bạn cần tìm gì...">
+          <input id="search" class="search_input" type="text" name="" placeholder="Bạn cần tìm gì..">
           <a id="btn-search" href="" class="search_icon"><i class="fas fa-search"></i></a>
         </div>
           <ul class="user p-0 m-0">
             <li class="user-link">
-              <a id="btn-login_pc" href="./login.html" class=" nav-link user-nav">
+              <a id="btn-login_pc" href="../pages/login.html" class=" nav-link user-nav">
                 <i class="fas fa-user user-icon"></i>
                 <span class="user-name"></span>
               </a>
               <ul id="menu_login_user" class="has-user p-0">
                 <li class="nav-item"><a class="nav-link txt-acc" href="">Thông tin</a></li>
-                <li class="nav-item"><a class="cart-link nav-link txt-acc" href="./cart.html">Xem đơn hàng</a></li>
+                <li class="nav-item"><a class="cart-link nav-link txt-acc" href="../pages/cart.html">Xem đơn hàng</a></li>
                 <li class="nav-item"><a id="btn_logout_acc" class="nav-link txt-acc" href="">Đăng Xuất</a></li>
               </ul>
             </li>
           </ul>
         <div class="cart-plus-nav">
-          <a class="cart-link nav-link cart-plus" href="./cart.html"><i class="fas fa-cart-plus cart-plus"></i></a>
+          <a class="cart-link nav-link cart-plus" href="../pages/cart.html"><i class="fas fa-cart-plus cart-plus"></i></a>
           <span id="demcart" class="totalProduct ">0</span>
         </div>
         <div class="menu-nav btn-menu-on p-0 " id="toggle-on">
@@ -62,20 +63,20 @@
         <i class="fas fa-times close-menu"></i>
       </div>
       <ul class="nav_mobile-list">
-        <li class=" nav-item text-center nav-user"><a id="btn-login_mobile" class=" user-name nav-link" href="./login.html">Tên tài khoản</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./index.html"><i class="fas fa-home"></i> Trang
+        <li class=" nav-item text-center nav-user"><a id="btn-login_mobile" class=" user-name nav-link" href="../pages/login.html">Tên tài khoản</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="../index.html"><i class="fas fa-home"></i> Trang
             chủ</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./products.html">Sản phẩm</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./about.html">Về chúng tôi</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./contact.html">Liên hệ</a></li>
-        <li class=" nav-item "><a id="btn-login" class="nav-link btn-nav-mobile d-inline-block" href="./login.html" >Đăng Nhập</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="../pages/products.html">Sản phẩm</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="../pages/about.html">Về chúng tôi</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="../pages/contact.html">Liên hệ</a></li>
+        <li class=" nav-item "><a id="btn-login" class="nav-link btn-nav-mobile d-inline-block" href="../pages/login.html" >Đăng Nhập</a></li>
       </ul>
     </div>
   </header>
   <!--main-->
   <div class="container">
     <div class="back " style="padding-top: 1.75em;">
-      <a href="./index.html">Trang chủ</a> / <a href="./products.html">Sản Phẩm</a> / Tên sản phẩm
+      <a href="../index.html">Trang chủ</a> / <a href="../pages/products.html">Sản Phẩm</a> / Tên sản phẩm
     </div>
     <h1 class="text-center py-3 product__detail-title">Thông tin sản phẩm</h1>
     <div class="row form-group  mt-2 mb-5 border">
@@ -141,10 +142,9 @@
         </p>
       </section>
       <section class="">
-        <div class="row text-start">
+        <div class="row text-start ">
           <div class="col col-12 col-md-6 col-lg-4 ">
-            <h5 class="text-uppercase"><img src="../Picture/logo/logo.png" alt="" class="logo-footer"></h5>
-
+            <h5 class="text-uppercase"><img src="../assets/image/logo/logo.png" alt="" class="logo-footer"></h5>
             <ul class="list-unstyled mb-0">
               <li>
                 <a href="#" class="text-white footer-link">Giới thiệu</a>
@@ -156,6 +156,7 @@
                 <a href="#" class="text-white footer-link">Liên hệ</a>
               </li>
               <li>
+                <button class="btn btn"></button>
               </li>
             </ul>
           </div>
@@ -176,29 +177,28 @@
                 <a href="#!" class="text-white footer-link">Điều khoản và Điều kiện </a>
               </li>
               <li>
-                <img src="../Picture/footer/apple.png" alt="" class="app-footer">
+                <img src="../assets/image/footer/apple.png" alt="" class="app-footer">
               </li>
             </ul>
           </div>
           <div class="col col-12 col-md-6 col-lg-4">
             <h5 class="text-uppercase">HỆ THỐNG SHOWROOM</h5>
-
             <ul class="list-unstyled mb-0">
-
               <li>
                 <a href="#!" class="text-white footer-link">12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí
                   Minh</a>
               </li>
-              <li><img src="../Picture/footer/tich.PNG" alt="" class="tich-apple"></li>
+              <li><img src="../assets/image/footer/tich.PNG" alt="" class="tich-apple"></li>
             </ul>
           </div>
         </div>
       </section>
     </div>
-    <script src="../js/app.js"></script>
-    <script src="../js/foundation.min.js"></script>
-    <script src="../js/setup.js"></script>
-    <script src="../bootstrap-5.0.0-dist/js/bootstrap.min.js"></script>
+  </footer>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/foundation.min.js"></script>
+    <script src="../assets/js/setup.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script>
       var link = window.location.href;
       var id = link.split('?')[1];

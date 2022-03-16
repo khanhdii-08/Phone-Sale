@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HD Iphone</title>
 
-
-  <link rel="stylesheet" href="../bootstrap-5.0.0-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
-  <script src="../jQuery/jquery-3.6.0.min.js"></script>
-  <link rel="stylesheet" href="../css/style.css">
+ 
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+  <script src="./assets/js/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
   <script>
   </script>
 
@@ -21,13 +21,13 @@
   <header class="container-fluid sticky-top ">
     <!--Pc-->
     <nav class="navbar ">
-      <a href="./index.html" class="logo-header"> <img class="img-header" src="../Picture/logo/logo.png" alt=""></a>
+      <a href="./index.html" class="logo-header"> <img class="img-header" src="./assets/image/logo/logo.png" alt=""></a>
       <ul class="nav font-nav">
         <li class="nav-item"><a class="nav-link txt-nav" href="./index.html">Trang chủ</a></li>
-        <li id="idproduct" class="nav-item"><a class="nav-link txt-nav" href="./products.html">Sản phẩm</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav" href="./about.html">Về chúng tôi</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav" href="./contact.html ">Liên hệ</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav" href="./SiteMap.html ">Site Map</a></li>
+        <li id="idproduct" class="nav-item"><a class="nav-link txt-nav" href="./pages/products.html">Sản phẩm</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="./pages/about.html">Về chúng tôi</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="./pages/contact.html ">Liên hệ</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="./pages/SiteMap.html ">Site Map</a></li>
       </ul>
       <div class="content d-flex align-items-center">
         <div class="searchbar ">
@@ -36,19 +36,19 @@
         </div>
           <ul class="user p-0 m-0">
             <li class="user-link">
-              <a id="btn-login_pc" href="./login.html" class=" nav-link user-nav">
+              <a id="btn-login_pc" href="./pages/login.html" class=" nav-link user-nav">
                 <i class="fas fa-user user-icon"></i>
                 <span class="user-name"></span>
               </a>
               <ul id="menu_login_user" class="has-user p-0">
                 <li class="nav-item"><a class="nav-link txt-acc" href="">Thông tin</a></li>
-                <li class="nav-item"><a class="cart-link nav-link txt-acc" href="./cart.html">Xem đơn hàng</a></li>
-                <li class="nav-item"><a id="btn_logout_acc" class="nav-link txt-acc" href="">Đăng Xuất</a></li>
+                <li class="nav-item"><a class="cart-link nav-link txt-acc" href="./pages/cart.html">Xem đơn hàng</a></li>
+                <li class="nav-item"><a id="btn_logout_acc" class="nav-link txt-acc" href="./index.html">Đăng Xuất</a></li>
               </ul>
             </li>
           </ul>
         <div class="cart-plus-nav">
-          <a class="cart-link nav-link cart-plus" href="./cart.html"><i class="fas fa-cart-plus cart-plus"></i></a>
+          <a class="cart-link nav-link cart-plus" href="./pages/cart.html"><i class="fas fa-cart-plus cart-plus"></i></a>
           <span id="demcart" class="totalProduct ">0</span>
         </div>
         <div class="menu-nav btn-menu-on p-0 " id="toggle-on">
@@ -63,13 +63,13 @@
         <i class="fas fa-times close-menu"></i>
       </div>
       <ul class="nav_mobile-list">
-        <li class=" nav-item text-center nav-user"><a id="btn-login_mobile" class=" user-name nav-link" href="./login.html">Tên tài khoản</a></li>
+        <li class=" nav-item text-center nav-user"><a id="btn-login_mobile" class=" user-name nav-link" href="./pages/login.html">Tên tài khoản</a></li>
         <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./index.html"><i class="fas fa-home"></i> Trang
             chủ</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./products.html">Sản phẩm</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./about.html">Về chúng tôi</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./contact.html">Liên hệ</a></li>
-        <li class=" nav-item "><a id="btn-login" class="nav-link btn-nav-mobile d-inline-block" href="./login.html" >Đăng Nhập</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./pages/products.html">Sản phẩm</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./pages/about.html">Về chúng tôi</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./pages/contact.html">Liên hệ</a></li>
+        <li class=" nav-item "><a id="btn-login" class="nav-link btn-nav-mobile d-inline-block" href="./pages/login.html" >Đăng Nhập</a></li>
       </ul>
     </div>
   </header>
@@ -88,16 +88,16 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../Picture/slider/1.png" class="d-block w-100" alt="...">
+        <img src="./assets/image/slider/1.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../Picture/slider/2.png" class="d-block w-100" alt="...">
+        <img src="./assets/image/slider/2.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../Picture/slider/3.jpg" class="d-block w-100" alt="...">
+        <img src="./assets/image/slider/3.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../Picture/slider/4.png" class="d-block w-100" alt="...">
+        <img src="./assets/image/slider/4.png" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -113,14 +113,14 @@
   </div>
   <!--End Slider-->
   <div class="img-icon-line">
-    <img src="../Picture/temp/icon-line.png" alt="">
+    <img src="./assets/image/temp/icon-line.png" alt="">
   </div>
   <!--Start Product -->
   <div class="container">
     <div class="row">
       <div class="head-title-product mt-3 ">
         <h3 class="list-product-title d-inline-block m-4 ">IPHONE NEW</h3>
-        <a href="./products.html" class="list-product-new">Xem tất cả <i class="fas fa-chevron-right"></i></a>
+        <a href="./pages/products.html" class="list-product-new">Xem tất cả <i class="fas fa-chevron-right"></i></a>
       </div>
       <div class="list-product-group">
         <div id="products-new" class="row g-0">
@@ -134,7 +134,7 @@
     <div class="row">
       <div class="head-title-product mt-3 ">
         <h3 class="list-product-title d-inline-block m-4 ">IPHONE (LIKENEW)</h3>
-        <a href="./products.html" class="list-product-new">Xem tất cả <i class="fas fa-chevron-right"></i></a>
+        <a href="./pages/products.html" class="list-product-new">Xem tất cả <i class="fas fa-chevron-right"></i></a>
       </div>
       <div class="list-product-group">
         <div id="products-old" class="row g-0">
@@ -150,15 +150,15 @@
     <div class="container">
       <div class="row ">
         <div class="col-md-2 d-flex align-items-center ">
-          <a href=""><img class="img-service" src="../Picture/service/support-64x64.png" alt=""></a>
+          <a href=""><img class="img-service" src="./assets/image/service/support-64x64.png" alt=""></a>
           <span class="service-span">HỖ TRỢ 24/7</span>
         </div>
         <div class="col-md-3 d-flex align-items-center ">
-          <a href=""><img class="img-service" src="../Picture/service/delivery-truck-64x64.png" alt=""></a>
+          <a href=""><img class="img-service" src="./assets/image/service/delivery-truck-64x64.png" alt=""></a>
           <span class="service-span">MIỄN PHÍ VẬN CHUYỂN</span>
         </div>
         <div class="col-md-3 d-flex align-items-center ">
-          <a href=""><img class="img-service" src="../Picture/service/return-64x64.png" alt=""></a>
+          <a href=""><img class="img-service" src="./assets/image/service/return-64x64.png" alt=""></a>
           <span class="service-span">30 NGÀY ĐỔI MỚI</span>
         </div>
         <div class="col-md-4 d-flex align-items-center ">
@@ -187,7 +187,7 @@
       <section class="">
         <div class="row text-start ">
           <div class="col col-12 col-md-6 col-lg-4 ">
-            <h5 class="text-uppercase"><img src="../Picture/logo/logo.png" alt="" class="logo-footer"></h5>
+            <h5 class="text-uppercase"><img src="./assets/image/logo/logo.png" alt="" class="logo-footer"></h5>
             <ul class="list-unstyled mb-0">
               <li>
                 <a href="#" class="text-white footer-link">Giới thiệu</a>
@@ -220,7 +220,7 @@
                 <a href="#!" class="text-white footer-link">Điều khoản và Điều kiện </a>
               </li>
               <li>
-                <img src="../Picture/footer/apple.png" alt="" class="app-footer">
+                <img src="./assets/image/footer/apple.png" alt="" class="app-footer">
               </li>
             </ul>
           </div>
@@ -231,7 +231,7 @@
                 <a href="#!" class="text-white footer-link">12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí
                   Minh</a>
               </li>
-              <li><img src="../Picture/footer/tich.PNG" alt="" class="tich-apple"></li>
+              <li><img src="./assets/image/footer/tich.PNG" alt="" class="tich-apple"></li>
             </ul>
           </div>
         </div>
@@ -239,8 +239,8 @@
     </div>
   </footer>
   <!-- End Footer-->
-  <script src="../js/app.js"></script>
-  <script src="../bootstrap-5.0.0-dist/js/bootstrap.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
   <script>
       var pNew = document.getElementById('products-new');
       pushData(getProductNew(),pNew);
@@ -250,7 +250,7 @@
     var listProduct = document.querySelectorAll(".product");  
     for (var product of listProduct) {
             product.addEventListener("click", function (e) {
-                window.location = "./products_sp.html" + "?" + this.id;
+                window.location = "./pages/products_sp.html" + "?" + this.id;
             })
         }
         // console.log(listProduct);

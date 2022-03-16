@@ -23,10 +23,10 @@ var products = document.getElementById("products");
 
 var dataProduct = [{
   id: "item-1",
-  url1: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-512gb-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-512gb-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-512gb-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-512gb-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-512gb-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-512gb-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-512gb-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-512gb-4-org.jpg",
   name: "iPhone 12 Pro Max - Vàng",
   price: 28600000,
   status: true,
@@ -36,10 +36,10 @@ var dataProduct = [{
 
 }, {
   id: "item-2",
-  url1: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-bac-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-bac-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-bac-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-bac-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-bac-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-bac-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-bac-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-bac-4-org.jpg",
   name: "iPhone 12 Pro Max - Trắng",
   price: 28600000,
   status: true,
@@ -48,10 +48,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.7 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:3 camera 12 MP Camera trước:12 MP Chip:Apple A14 Bionic RAM:6 GB Bộ nhớ trong:128 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 5G Pin 3687 mAh, Sạc:20 WSH"
 }, {
   id: "item-3",
-  url1: "../Picture/gallery/preview/ip12/iphone-12-256gb-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip12/iphone-12-256gb-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip12/iphone-12-256gb-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip12/iphone-12-256gb-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip12/iphone-12-256gb-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip12/iphone-12-256gb-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip12/iphone-12-256gb-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip12/iphone-12-256gb-4-org.jpg",
   name: "iPhone 12 - Đỏ ",
   price: 19490000,
   status: true,
@@ -60,10 +60,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.1 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:2 camera 12 MP Camera trước:12 MP Chip:Apple A14 Bionic RAM:4 GB Bộ nhớ trong:256 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 5G Pin:2815 mAh, Sạc:20W"
 }, {
   id: "item-4",
-  url1: "../Picture/gallery/preview/ip12/iphone-12-256gb-trang-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip12/iphone-12-256gb-trang-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip12/iphone-12-256gb-trang-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip12/iphone-12-256gb-trang-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip12/iphone-12-256gb-trang-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip12/iphone-12-256gb-trang-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip12/iphone-12-256gb-trang-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip12/iphone-12-256gb-trang-4-org.jpg",
   name: "iPhone 12 - Trắng ",
   price: 19490000,
   status: true,
@@ -72,10 +72,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.1 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:2 camera 12 MP Camera trước:12 MP Chip:Apple A14 Bionic RAM:4 GB Bộ nhớ trong:256 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 5G Pin:2815mAh, Sạc:20W"
 }, {
   id: "item-5",
-  url1: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-vang-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-vang-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-vang-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-vang-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-vang-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-vang-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-vang-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-vang-4-1-org.jpg",
   name: "iPhone 11 Pro Max - Vàng",
   price: 24190000,
   status: true,
@@ -84,10 +84,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.5 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:3 camera 12 MP Camera trước:12 MP Chip:Apple A13 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin 3969 mAh, Sạc:20 W"
 }, {
   id: "item-6",
-  url1: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-xanh-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-xanh-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-xanh-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-xanh-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-xanh-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-xanh-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-xanh-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-xanh-4-1-org.jpg",
   name: "iPhone 11 Pro Max - Xanh ",
   price: 24190000,
   status: true,
@@ -96,10 +96,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.5 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:3 camera 12 MP Camera trước:12 MP Chip:Apple A13 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin 3969 mAh, Sạc:20 W"
 }, {
   id: "item-7",
-  url1: "../Picture/gallery/preview/ip11/iphone-11-128gb-tim-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip11/iphone-11-128gb-tim-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ip11/iphone-11-128gb-tim-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ip11/iphone-11-128gb-tim-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ip11/iphone-11-128gb-tim-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip11/iphone-11-128gb-tim-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ip11/iphone-11-128gb-tim-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ip11/iphone-11-128gb-tim-4-1-org.jpg",
   name: "iPhone 11 - Tím",
   price: 19490000,
   status: true,
@@ -108,10 +108,10 @@ var dataProduct = [{
   tt1:"Màn hình:IPS LCD6.1 Liquid Retina Hệ điều hành:iOS 14 Camera sau:2 camera 12 MP Camera trước:12 MP Chip:Apple A13 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin:3110 mAh1, Sạc:18 W"
 }, {
   id: "item-8",
-  url1: "../Picture/gallery/preview/ip11/iphone-11-128gb-xanh-la-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip11/iphone-11-128gb-xanh-la-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip11/iphone-11-128gb-xanh-la-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip11/iphone-11-128gb-xanh-la-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip11/iphone-11-128gb-xanh-la-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip11/iphone-11-128gb-xanh-la-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip11/iphone-11-128gb-xanh-la-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip11/iphone-11-128gb-xanh-la-4-org.jpg",
   name: "iPhone 11 - Xanh",
   price: 19490000,
   status: true,
@@ -120,10 +120,10 @@ var dataProduct = [{
   tt1:"Màn hình:IPS LCD6.1 Liquid Retina Hệ điều hành:iOS 14 Camera sau:2 camera 12 MP Camera trước:12 MP Chip:Apple A13 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin:3110 mAh1, Sạc:18 W"
 }, {
   id: "item-9",
-  url1: "../Picture/gallery/preview/ipxsm/iphone-xs-max-1-org.jpg",
-  url2: "../Picture/gallery/preview/ipxsm/iphone-xs-max-2-org.jpg",
-  url3: "../Picture/gallery/preview/ipxsm/iphone-xs-max-3-org.jpg",
-  url4: "../Picture/gallery/preview/ipxsm/iphone-xs-max-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-4-org.jpg",
   name: "iPhone XS Max - vàng",
   price: 18190000,
   status: true,
@@ -132,10 +132,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.5 Super Retina Hệ điều hành:iOS 14 Camera sau:2 camera 12 MP Camera trước:7 MP Chip:Apple A12 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin:3174 mAh, Sạc:"
 }, {
   id: "item-10",
-  url1: "../Picture/gallery/preview/ipxsm/iphone-xs-max-bac-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ipxsm/iphone-xs-max-bac-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ipxsm/iphone-xs-max-bac-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ipxsm/iphone-xs-max-bac-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-bac-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-bac-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-bac-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-bac-4-1-org.jpg",
   name: "iPhone XS MAX - Trắng",
   price: 18190000,
   status: true,
@@ -144,10 +144,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.5 Super Retina Hệ điều hành:iOS 14 Camera sau:2 camera 12 MP Camera trước:7 MP Chip:Apple A12 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin:3174 mAh, Sạc:"
 }, {
   id: "item-11",
-  url1: "../Picture/gallery/preview/ipx/iphone-x-64gb-bac-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ipx/iphone-x-64gb-bac-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ipx/iphone-x-64gb-bac-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ipx/iphone-x-64gb-bac-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ipx/iphone-x-64gb-bac-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ipx/iphone-x-64gb-bac-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ipx/iphone-x-64gb-bac-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ipx/iphone-x-64gb-bac-4-1-org.jpg",
   name: "iPhone X - Trắng",
   price: 12120000,
   status: true,
@@ -156,10 +156,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED5.8 Super Retina Hệ điều hành:iOS 12 Camera sau:2 camera 12 MP Camera trước:7 MP Chip:Apple A11 Bionic RAM:3 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM Pin:2716 mAh, Sạc:"
 }, {
   id: "item-12",
-  url1: "../Picture/gallery/preview/ipx/iphone-x-64gb-mau-den-1-org.jpg",
-  url2: "../Picture/gallery/preview/ipx/iphone-x-64gb-mau-den-12-org.jpg",
-  url3: "../Picture/gallery/preview/ipx/iphone-x-64gb-mau-den-13-org.jpg",
-  url4: "../Picture/gallery/preview/ipx/iphone-x-64gb-mau-den-14-org.jpg",
+  url1: "../assets/image/gallery/preview/ipx/iphone-x-64gb-mau-den-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ipx/iphone-x-64gb-mau-den-12-org.jpg",
+  url3: "../assets/image/gallery/preview/ipx/iphone-x-64gb-mau-den-13-org.jpg",
+  url4: "../assets/image/gallery/preview/ipx/iphone-x-64gb-mau-den-14-org.jpg",
   name: "iPhone X - Đen",
   price: 12120000,
   status: true,
@@ -169,10 +169,10 @@ var dataProduct = [{
 
 }, {
   id: "item-13",
-  url1: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-512gb-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-512gb-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-512gb-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-512gb-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-512gb-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-512gb-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-512gb-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-512gb-4-org.jpg",
   name: "iPhone 12 Pro Max - Vàng",
   price: 24190000,
   status: false,
@@ -182,10 +182,10 @@ var dataProduct = [{
 
 }, {
   id: "item-14",
-  url1: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-bac-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-bac-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-bac-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip12prm/iphone-12-pro-max-bac-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-bac-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-bac-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-bac-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip12prm/iphone-12-pro-max-bac-4-org.jpg",
   name: "iPhone 12 Pro Max - Trắng",
   price: 24190000,
   status: false,
@@ -194,10 +194,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.7 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:3 camera 12 MP Camera trước:12 MP Chip:Apple A14 Bionic RAM:6 GB Bộ nhớ trong:128 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 5G Pin, Sạc:3687 mAh20 WSH"
 }, {
   id: "item-15",
-  url1: "../Picture/gallery/preview/ip12/iphone-12-256gb-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip12/iphone-12-256gb-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip12/iphone-12-256gb-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip12/iphone-12-256gb-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip12/iphone-12-256gb-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip12/iphone-12-256gb-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip12/iphone-12-256gb-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip12/iphone-12-256gb-4-org.jpg",
   name: "iPhone 12 - Đỏ ",
   price: 15290000,
   status: false,
@@ -206,10 +206,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.7 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:3 camera 12 MP Camera trước:12 MP Chip:Apple A14 Bionic RAM:6 GB Bộ nhớ trong:128 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 5G Pin 3687 mAh, Sạc:20 WSH"
 }, {
   id: "item-16",
-  url1: "../Picture/gallery/preview/ip12/iphone-12-256gb-trang-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip12/iphone-12-256gb-trang-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip12/iphone-12-256gb-trang-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip12/iphone-12-256gb-trang-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip12/iphone-12-256gb-trang-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip12/iphone-12-256gb-trang-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip12/iphone-12-256gb-trang-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip12/iphone-12-256gb-trang-4-org.jpg",
   name: "iPhone 12 - Trắng ",
   price: 15290000,
   status: false,
@@ -218,10 +218,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.7 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:3 camera 12 MP Camera trước:12 MP Chip:Apple A14 Bionic RAM:6 GB Bộ nhớ trong:128 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 5G Pin 3687 mAh, Sạc:20 WSH"
 }, {
   id: "item-17",
-  url1: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-vang-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-vang-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-vang-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-vang-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-vang-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-vang-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-vang-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-vang-4-1-org.jpg",
   name: "iPhone 11 Pro Max - Vàng",
   price: 19790000,
   status: false,
@@ -230,10 +230,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.5 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:3 camera 12 MP Camera trước:12 MP Chip:Apple A13 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin 3969 mAh, Sạc:20 W"
 }, {
   id: "item-18",
-  url1: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-xanh-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-xanh-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-xanh-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ip11prm/iphone-11-pro-max-xanh-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-xanh-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-xanh-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-xanh-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ip11prm/iphone-11-pro-max-xanh-4-1-org.jpg",
   name: "iPhone 11 Pro Max - Xanh ",
   price: 19790000,
   status: false,
@@ -242,10 +242,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.5 Super Retina XDR Hệ điều hành:iOS 14 Camera sau:3 camera 12 MP Camera trước:12 MP Chip:Apple A13 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin 3969 mAh, Sạc:20 W"
 }, {
   id: "item-19",
-  url1: "../Picture/gallery/preview/ip11/iphone-11-128gb-tim-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip11/iphone-11-128gb-tim-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ip11/iphone-11-128gb-tim-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ip11/iphone-11-128gb-tim-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ip11/iphone-11-128gb-tim-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip11/iphone-11-128gb-tim-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ip11/iphone-11-128gb-tim-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ip11/iphone-11-128gb-tim-4-1-org.jpg",
   name: "iPhone 11 - Tím",
   price: 19490000,
   status: false,
@@ -254,10 +254,10 @@ var dataProduct = [{
   tt1:"Màn hình:IPS LCD6.1 Liquid Retina Hệ điều hành:iOS 14 Camera sau:2 camera 12 MP Camera trước:12 MP Chip:Apple A13 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin:3110 mAh1, Sạc:18 W"
 }, {
   id: "item-20",
-  url1: "../Picture/gallery/preview/ip11/iphone-11-128gb-xanh-la-1-org.jpg",
-  url2: "../Picture/gallery/preview/ip11/iphone-11-128gb-xanh-la-2-org.jpg",
-  url3: "../Picture/gallery/preview/ip11/iphone-11-128gb-xanh-la-3-org.jpg",
-  url4: "../Picture/gallery/preview/ip11/iphone-11-128gb-xanh-la-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ip11/iphone-11-128gb-xanh-la-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ip11/iphone-11-128gb-xanh-la-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ip11/iphone-11-128gb-xanh-la-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ip11/iphone-11-128gb-xanh-la-4-org.jpg",
   name: "iPhone 11 - Xanh",
   price: 13450000,
   status: false,
@@ -266,10 +266,10 @@ var dataProduct = [{
   tt1:"Màn hình:IPS LCD6.1 Liquid Retina Hệ điều hành:iOS 14 Camera sau:2 camera 12 MP Camera trước:12 MP Chip:Apple A13 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin:3110 mAh1, Sạc:18 W"
 }, {
   id: "item-21",
-  url1: "../Picture/gallery/preview/ipxsm/iphone-xs-max-1-org.jpg",
-  url2: "../Picture/gallery/preview/ipxsm/iphone-xs-max-2-org.jpg",
-  url3: "../Picture/gallery/preview/ipxsm/iphone-xs-max-3-org.jpg",
-  url4: "../Picture/gallery/preview/ipxsm/iphone-xs-max-4-org.jpg",
+  url1: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-2-org.jpg",
+  url3: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-3-org.jpg",
+  url4: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-4-org.jpg",
   name: "iPhone XS Max - vàng",
   price: 13450000,
   status: false,
@@ -278,10 +278,10 @@ var dataProduct = [{
 
 }, {
   id: "item-22",
-  url1: "../Picture/gallery/preview/ipxsm/iphone-xs-max-bac-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ipxsm/iphone-xs-max-bac-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ipxsm/iphone-xs-max-bac-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ipxsm/iphone-xs-max-bac-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-bac-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-bac-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-bac-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ipxsm/iphone-xs-max-bac-4-1-org.jpg",
   name: "iPhone XS MAX - Trắng",
   price: 13450000,
   status: false,
@@ -290,10 +290,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED6.5 Super Retina Hệ điều hành:iOS 14 Camera sau:2 camera 12 MP Camera trước:7 MP Chip:Apple A12 Bionic RAM:4 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM & 1 eSIMHỗ trợ 4G Pin:3174 mAh, Sạc:"
 }, {
   id: "item-23",
-  url1: "../Picture/gallery/preview/ipx/iphone-x-64gb-bac-1-1-org.jpg",
-  url2: "../Picture/gallery/preview/ipx/iphone-x-64gb-bac-2-1-org.jpg",
-  url3: "../Picture/gallery/preview/ipx/iphone-x-64gb-bac-3-1-org.jpg",
-  url4: "../Picture/gallery/preview/ipx/iphone-x-64gb-bac-4-1-org.jpg",
+  url1: "../assets/image/gallery/preview/ipx/iphone-x-64gb-bac-1-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ipx/iphone-x-64gb-bac-2-1-org.jpg",
+  url3: "../assets/image/gallery/preview/ipx/iphone-x-64gb-bac-3-1-org.jpg",
+  url4: "../assets/image/gallery/preview/ipx/iphone-x-64gb-bac-4-1-org.jpg",
   name: "iPhone X - Trắng",
   price: 89990000,
   status: false,
@@ -302,10 +302,10 @@ var dataProduct = [{
   tt1:"Màn hình:OLED5.8 Super Retina Hệ điều hành:iOS 12 Camera sau:2 camera 12 MP Camera trước:7 MP Chip:Apple A11 Bionic RAM:3 GB Bộ nhớ trong:64 GB SIM:1 Nano SIM Pin:2716 mAh, Sạc:"
 }, {
   id: "item-24",
-  url1: "../Picture/gallery/preview/ipx/iphone-x-64gb-mau-den-1-org.jpg",
-  url2: "../Picture/gallery/preview/ipx/iphone-x-64gb-mau-den-12-org.jpg",
-  url3: "../Picture/gallery/preview/ipx/iphone-x-64gb-mau-den-13-org.jpg",
-  url4: "../Picture/gallery/preview/ipx/iphone-x-64gb-mau-den-14-org.jpg",
+  url1: "../assets/image/gallery/preview/ipx/iphone-x-64gb-mau-den-1-org.jpg",
+  url2: "../assets/image/gallery/preview/ipx/iphone-x-64gb-mau-den-12-org.jpg",
+  url3: "../assets/image/gallery/preview/ipx/iphone-x-64gb-mau-den-13-org.jpg",
+  url4: "../assets/image/gallery/preview/ipx/iphone-x-64gb-mau-den-14-org.jpg",
   name: "iPhone X - Đen",
   price: 89990000,
   status: false,
@@ -396,7 +396,7 @@ function checkLogin() {
     btnlogoutacc.addEventListener('click', function (event) {
       event.preventDefault();
       logout();
-      window.location = "./index.html";
+      window.location = "../index.html";
     })
     return user;
   }
@@ -495,14 +495,14 @@ btnSearch.addEventListener("click", function(e){
   var dataSearch = searchProducts(dataProduct, search);
   localStorage.setItem("filter", 4);
   localStorage.setItem('searchProducts',JSON.stringify(dataSearch));
-  window.location="./products.html"
+  window.location="../pages/products.html"
 });
 
 var btnProduct =document.getElementById("idproduct");
   btnProduct.addEventListener('click', function (event) {
   event.preventDefault();
   localStorage.setItem('filter',1);
-  window.location="./products.html";
+  window.location="../pages/products.html";
 })
 
 var pushProducts = function (id) {

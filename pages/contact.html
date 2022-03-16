@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liên hệ</title>
-    <link rel="stylesheet" href="../bootstrap-5.0.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
-    <script src="../jQuery/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
   <header class="container-fluid sticky-top ">
     <!--Pc-->
     <nav class="navbar ">
-      <a href="./index.html" class="logo-header"> <img class="img-header" src="../Picture/logo/logo.png" alt=""></a>
+      <a href="../index.html" class="logo-header"> <img class="img-header" src="../Picture/logo/logo.png" alt=""></a>
       <ul class="nav font-nav">
-        <li class="nav-item"><a class="nav-link txt-nav" href="./index.html">Trang chủ</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" href="../index.html">Trang chủ</a></li>
         <li id="idproduct" class="nav-item"><a class="nav-link txt-nav" href="./products.html">Sản phẩm</a></li>
         <li class="nav-item"><a class="nav-link txt-nav" href="./about.html">Về chúng tôi</a></li>
         <li class="nav-item"><a class="nav-link txt-nav" href="./contact.html ">Liên hệ</a></li>
@@ -57,7 +57,7 @@
       </div>
       <ul class="nav_mobile-list">
         <li class=" nav-item text-center nav-user"><a id="btn-login_mobile" class=" user-name nav-link" href="./login.html">Tên tài khoản</a></li>
-        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./index.html"><i class="fas fa-home"></i> Trang
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" href="../index.html"><i class="fas fa-home"></i> Trang
             chủ</a></li>
         <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./products.html">Sản phẩm</a></li>
         <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./about.html">Về chúng tôi</a></li>
@@ -73,7 +73,7 @@
         </div>
         <div class=" row form-group ">
             <div class="col col-12 col-md-6   img-contact">
-                <img style="width: 100%;" src="../Picture/contact/contact-us-HiRes.jpg" alt="">
+                <img style="width: 100%;" src="../assets/image/contact/contact-us-HiRes.jpg" alt="">
             </div>
             <div class="col col-12 col-md-6">
                 <form class="mt-5">
@@ -105,111 +105,74 @@
  
     <!-- Start Footer-->
     <!-- Footer -->
-  <footer class="bg-footer text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!-- Section: Social media -->
-      <section class= "p-0">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+    <footer class="bg-footer text-center text-white">
+      <div class="container p-4">
+        <section class="p-0">
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        </section>
+        <section class="p-0">
+          <p class="txt-footer">
+            Được phục vụ quý khánh là niềm vinh hạnh của chúng tôi.
+          </p>
+        </section>
+        <section class="">
+          <div class="row text-start ">
+            <div class="col col-12 col-md-6 col-lg-4 ">
+              <h5 class="text-uppercase"><img src="../assets/image/logo/logo.png" alt="" class="logo-footer"></h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#" class="text-white footer-link">Giới thiệu</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white footer-link">Tuyển dụng</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white footer-link">Liên hệ</a>
+                </li>
+                <li>
+                  <button class="btn btn"></button>
+                </li>
+              </ul>
+            </div>
+            <div class="col col-12 col-md-6 col-lg-4">
+              <h5 class="text-uppercase">CÁC QUY ĐỊNH VÀ CHÍNH SÁCH</h5>
   
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        
-      </section>
-      <!-- Section: Social media -->
-      <!-- Section: Text -->
-      <section class= p-0">
-        <p class="txt-footer">
-         Được phục vụ quý khánh là niềm vinh hạnh của chúng tôi.
-        </p>
-      </section>
-      <!-- Section: Text -->
-  
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row text-start">
-          <!--Grid column-->
-          <div class="col col-12 col-md-6 col-lg-4 ">
-            <h5 class="text-uppercase"><img src="../Picture/logo/logo.png" alt="" class="logo-footer"></h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#" class="text-white footer-link">Giới thiệu</a>
-              </li>
-              <li>
-                <a href="#" class="text-white footer-link">Tuyển dụng</a>
-              </li>
-              <li>
-                <a href="#" class="text-white footer-link">Liên hệ</a>
-              </li>
-              <li>
-  
-              </li>
-            </ul>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white footer-link">Chính sách bảo hành</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white footer-link">Chính sách đổi trả hàng và hoàn tiền</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white footer-link">Chính sách bảo mật</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white footer-link">Điều khoản và Điều kiện </a>
+                </li>
+                <li>
+                  <img src="../assets/image/footer/apple.png" alt="" class="app-footer">
+                </li>
+              </ul>
+            </div>
+            <div class="col col-12 col-md-6 col-lg-4">
+              <h5 class="text-uppercase">HỆ THỐNG SHOWROOM</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white footer-link">12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí
+                    Minh</a>
+                </li>
+                <li><img src="../assets/image/footer/tich.PNG" alt="" class="tich-apple"></li>
+              </ul>
+            </div>
           </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col col-12 col-md-6 col-lg-4">
-            <h5 class="text-uppercase">CÁC QUY ĐỊNH VÀ CHÍNH SÁCH</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white footer-link">Chính sách bảo hành</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white footer-link">Chính sách đổi trả hàng và hoàn tiền</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white footer-link">Chính sách bảo mật</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white footer-link">Điều khoản và Điều kiện </a>
-              </li>
-              <li>
-                <img src="../Picture/footer/apple.png" alt="" class="app-footer">
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col col-12 col-md-6 col-lg-4">
-            <h5 class="text-uppercase">HỆ THỐNG SHOWROOM</h5>
-  
-            <ul class="list-unstyled mb-0">
-              
-              <li>
-                <a href="#!" class="text-white footer-link">12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh</a>
-                
-              </li>
-              <li><img src="../Picture/footer/tich.PNG" alt="" class="tich-apple"></li>
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
-    </div>
-        <script src="../bootstrap-5.0.0-dist/js/bootstrap.min.js"></script>
-        <script src="../js/app.js"></script>
+        </section>
+      </div>
+    </footer>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
