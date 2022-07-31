@@ -24,7 +24,7 @@
       <a href="./index.html" class="logo-header"> <img class="img-header" src="./assets/image/logo/logo.png" alt=""></a>
       <ul class="nav font-nav">
         <li class="nav-item"><a class="nav-link txt-nav" href="./index.html">Trang chủ</a></li>
-        <li id="idproduct" class="nav-item"><a class="nav-link txt-nav" href=""">Sản phẩm</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav" onclick="localStorage.setItem('filter',1)" href="./pages/products.html"">Sản phẩm</a></li>
         <li class="nav-item"><a class="nav-link txt-nav" href="./pages/about.html">Về chúng tôi</a></li>
         <li class="nav-item"><a class="nav-link txt-nav" href="./pages/contact.html ">Liên hệ</a></li>
         <li class="nav-item"><a class="nav-link txt-nav" href="./pages/SiteMap.html ">Site Map</a></li>
@@ -66,7 +66,7 @@
         <li class=" nav-item text-center nav-user"><a id="btn-login_mobile" class=" user-name nav-link" href="./pages/login.html">Tên tài khoản</a></li>
         <li class="nav-item"><a class="nav-link txt-nav-mobile" href="../index.html"><i class="fas fa-home"></i> Trang
             chủ</a></li>
-        <li id="idproduct" class="nav-item"><a class="nav-link txt-nav-mobile" href="./pages/products.html">Sản phẩm</a></li>
+        <li class="nav-item"><a class="nav-link txt-nav-mobile" onclick="localStorage.setItem('filter',1)" href="./pages/products.html">Sản phẩm</a></li>
         <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./pages/about.html">Về chúng tôi</a></li>
         <li class="nav-item"><a class="nav-link txt-nav-mobile" href="./pages/contact.html">Liên hệ</a></li>
         <li class=" nav-item "><a id="btn-login" class="nav-link btn-nav-mobile d-inline-block" href="./pages/login.html" >Đăng Nhập</a></li>
@@ -120,7 +120,7 @@
     <div class="row">
       <div class="head-title-product mt-3 ">
         <h3 class="list-product-title d-inline-block m-4 ">IPHONE NEW</h3>
-        <a href="./pages/products.html" class="list-product-new">Xem tất cả <i class="fas fa-chevron-right"></i></a>
+        <a href="./pages/products.html" class="list-product-new" onclick="localStorage.setItem('filter',1)">Xem tất cả <i class="fas fa-chevron-right"></i></a>
       </div>
       <div class="list-product-group">
         <div id="products-new" class="row g-0">
@@ -134,7 +134,7 @@
     <div class="row">
       <div class="head-title-product mt-3 ">
         <h3 class="list-product-title d-inline-block m-4 ">IPHONE (LIKENEW)</h3>
-        <a href="./pages/products.html" class="list-product-new">Xem tất cả <i class="fas fa-chevron-right"></i></a>
+        <a href="./pages/products.html" class="list-product-new" onclick="localStorage.setItem('filter',1)">Xem tất cả <i class="fas fa-chevron-right"></i></a>
       </div>
       <div class="list-product-group">
         <div id="products-old" class="row g-0">
