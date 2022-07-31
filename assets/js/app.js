@@ -518,7 +518,7 @@ var btnProduct =document.getElementById("idproduct");
   btnProduct.addEventListener('click', function (event) {
   event.preventDefault();
   localStorage.setItem('filter',1);
-  window.location="../pages/products.html";
+  window.location="./pages/products.html";
 })
 
 var pushProducts = function (id) {
