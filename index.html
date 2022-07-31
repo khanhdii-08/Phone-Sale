@@ -32,7 +32,7 @@
       <div class="content d-flex align-items-center">
         <div class="searchbar ">
           <input id="search" class="search_input" type="text" name="" placeholder="Bạn cần tìm gì...">
-          <a id="btn-search" href="" class="search_icon"><i class="fas fa-search"></i></a>
+          <a href="./pages/products.html" class="search_icon" onclick="searchItems()"><i class="fas fa-search"></i></a>
         </div>
           <ul class="user p-0 m-0">
             <li class="user-link">
@@ -247,13 +247,20 @@
       var pOld = document.getElementById('products-old');
       pushDataHome(getProductOld(),pOld);
       
-    var listProduct = document.querySelectorAll(".product");  
-    for (var product of listProduct) {
-            product.addEventListener("click", function (e) {
-                window.location = "./pages/productsDetail.html" + "?" + this.id;
-            })
-        }
-        // console.log(listProduct);
+      var listProduct = document.querySelectorAll(".product");  
+      for (var product of listProduct) {
+              product.addEventListener("click", function (e) {
+                  window.location = "./pages/productsDetail.html" + "?" + this.id;
+              })
+      }
+          // console.log(listProduct);
+    
+      function searchItems(){
+        var search=document.getElementById("search").value; 
+        var dataSearch = searchProducts(dataProduct, search);
+        localStorage.setItem("filter", 4);
+        localStorage.setItem('searchProducts',JSON.stringify(dataSearch));
+      }
   </script>
 </body>
 
