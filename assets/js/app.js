@@ -415,7 +415,6 @@ console.log(checkLogin());
 // dataProduct.push(item);
 
 
-
 function pushDataAll() {
   for (var data of dataProduct) {
     var product = `<div id="${data.id}" class="card product col col-6 col-md-4 col-lg-3 col-xl-2 p-0">
@@ -431,6 +430,24 @@ function pushDataAll() {
     products.innerHTML += product;
   }
 }
+
+function pushDataHome(dataProduct, products) {
+
+  for (var data of dataProduct) {
+    var product = `<div id="${data.id}" class="card product col col-6 col-md-4 col-lg-3 col-xl-2 p-0">
+        <div class="">
+          <img src="${data.url1.slice(1, data.url1.length)}" class="card-img-top card-img" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">${data.name} </h6>
+            <p class="card-text">${data.price}</p>
+            <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i></i> <span>Chi Tiết</span> </a>
+          </div>
+        </div>
+      </div>`;
+    products.innerHTML += product;
+  }
+}
+
 function pushData(dataProduct, products) {
   for (var data of dataProduct) {
     var product = `<div id="${data.id}" class="card product col col-6 col-md-4 col-lg-3 col-xl-2 p-0">
