@@ -432,7 +432,6 @@ function pushDataAll() {
 }
 
 function pushDataHome(dataProduct, products) {
-
   for (var data of dataProduct) {
     var product = `<div id="${data.id}" class="card product col col-6 col-md-4 col-lg-3 col-xl-2 p-0">
         <div class="">
